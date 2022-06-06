@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './contents/Home';
+import About from './contents/About';
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Home />
+        <About />
 
       </div>
     </Router>
