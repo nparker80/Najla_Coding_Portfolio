@@ -6,6 +6,7 @@ import {
 import Navbar from './components/Navbar';
 import Home from './contents/Home';
 import About from './contents/About';
+import Skills from './contents/Skills';
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Navbar />
         <Home />
         <About />
+        <Skills />
 
       </div>
     </Router>
