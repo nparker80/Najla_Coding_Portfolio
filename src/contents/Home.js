@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import profilepic from '../img/najla.JPG';
-import Social from '../components/Social'
-
-
+import Social from '../components/Social';
+import { Link, Outlet } from 'react-router-dom';
 
 class Home extends Component {
   render() {
@@ -12,6 +11,7 @@ class Home extends Component {
         <img src={profilepic} alt="ProfilePic" className="profilepic"></img>
         <ReactTypingEffect className="typingeffect" text={['Welcome to my portfolio!']} speed={100} eraseDelay={700} />
         <Social />
+        <Outlet />
       </div>
     )
   }
