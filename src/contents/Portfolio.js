@@ -32,7 +32,7 @@ const Portfolio = ({ data }) => {
       <div className="condiv"></div>
       < div className="row" >
         <div className="twelve columns collapsed">
-          <h1>Check out some of my recent creations</h1>
+          <h1>Enjoy some of my projects!</h1>
 
           <div
             id="portfolio-wrapper"
