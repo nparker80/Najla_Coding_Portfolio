@@ -27,22 +27,22 @@ const Portfolio = ({ data }) => {
   }
 
   return (
+    <div className="condiv home">
+      <section id="portfolio">
+        < div className="row" >
+          <div className="twelve columns collapsed">
+            <h1>Enjoy some of my projects!</h1>
 
-    <section id="portfolio">
-      <div className="condiv"></div>
-      < div className="row" >
-        <div className="twelve columns collapsed">
-          <h1>Enjoy some of my projects!</h1>
-
-          <div
-            id="portfolio-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
-          >
-            {projects}
+            <div
+              id="portfolio-wrapper"
+              className="bgrid-quarters s-bgrid-thirds cf"
+            >
+              {projects}
+            </div>
           </div>
-        </div>
-      </div >
-    </section >
+        </div >
+      </section >
+    </div>
   );
 };
 

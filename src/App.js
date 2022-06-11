@@ -21,17 +21,16 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar></Navbar>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolio" element={<Portfolio data={resumeData.portfolio} />} />
         </Routes>
-        <Portfolio data={resumeData.portfolio} />
       </div>
-    </BrowserRouter>
+    </BrowserRouter >
   );
 }
 
