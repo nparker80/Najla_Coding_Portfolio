@@ -1,5 +1,9 @@
 import React from "react";
 
+
+
+<div className="condiv">
+</div>
 const Portfolio = ({ data }) => {
   if (data) {
     var projects = data.projects.map(function (projects) {
@@ -27,22 +31,18 @@ const Portfolio = ({ data }) => {
   }
 
   return (
-    <div className="condiv home">
-      <section id="portfolio">
-        < div className="row" >
-          <div className="twelve columns collapsed">
-            <h1>Enjoy some of my projects!</h1>
+    <section id="portfolio">
+      <div className="row">
+        <h1>Check out some of my recent creations</h1>
 
-            <div
-              id="portfolio-wrapper"
-              className="bgrid-quarters s-bgrid-thirds cf"
-            >
-              {projects}
-            </div>
-          </div>
-        </div >
-      </section >
-    </div>
+        <div
+          id="portfolio-wrapper"
+          className="bgrid-quarters s-bgrid-thirds cf"
+        >
+          {projects}
+        </div>
+      </div>
+    </section >
   );
 };
 
