@@ -1,362 +1,202 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
-
-:root {
-  --sidebar-flex: 1.5;
-  --condiv-flex: 6;
-  --fontsize-p: 1.2rem;
-  --fontsize-nav: 1.6rem;
-  --typing-font: 3rem;
-}
-
 * {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+[hidden] {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-  font-family: 'Raleway';
-}
-
-.App {
-  display: flex;
-  width: 100vw;
-  min-height: 100vh;
-}
-
-.condiv {
-  padding: 100px;
-  background-color: #858884;
-  flex: var(--condiv-flex);
-}
-
-nav {
-  padding: 60px 30px 0px 30px;
-  flex: var(--sidebar-flex);
-  background: rgb(202, 109, 156);
-  background: linear-gradient(180deg, rgb(202, 109, 156, 1) 50%, rgb(112, 90, 107) 80%);
-}
-
-nav ul {
-  font-size: var(--fontsize-nav);
-  text-align: center;
-  list-style-type: none;
-  text-decoration: none;
-  color: white !important;
-}
-
-nav ul li {
-  margin: 40px;
-}
-
-.active {
-  font-weight: bolder;
-}
-
-.social {
-  position: absolute;
-  margin-top: 20px;
-  display: flex;
-  bottom: 60px;
-}
-
-.social i {
-  padding-right: 30px;
-  font-size: 45px;
-  color: #0c3d6e;
-}
-
-.social i:hover {
-  color: #ffffff;
-}
-
-.subtopic {
-  margin: 10px 10px 30px 10px !important;
-}
-
-p {
-  font-size: var(--fontsize-p);
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin: 10px;
-}
-
-@media screen and (max-width: 640px) {
-  .skillsGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    grid-auto-rows: auto;
-    height: auto;
-  }
-
-  .skillsGrid img {
-    height: 75px;
-    width: 75px;
-  }
-
-  .skills {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media screen and (min-width: 641px) {
-  .skillsGrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    grid-auto-rows: auto;
-    height: auto;
-  }
-
-  .skillsGrid img {
-    height: 100px;
-    width: 100px;
-  }
-
-  .skills {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media screen and (min-width: 1080px) {
-  .skillsGrid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 50px;
-    grid-auto-rows: auto;
-    height: auto
-  }
-
-  */ .skillsGrid img {
-    height: 150px;
-    width: 150px;
-  }
-
-  .skills {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-}
-
-#portfolio {
-  background: #ebeeee;
-  padding-top: 90px;
-  padding-bottom: 60px;
-}
-
-#portfolio h1 {
-  font: 15px/24px 'opensans-semibold', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  margin-bottom: 48px;
-  color: #95A3A3;
-}
-
-/* Portfolio Content */
-#portfolio-wrapper .columns {
-  margin-bottom: 36px;
-}
-
-.portfolio-item .item-wrap {
   background: #fff;
-  overflow: hidden;
-  position: relative;
-
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.portfolio-item .item-wrap a {
-  display: block;
-  cursor: pointer;
-}
-
-/* overlay */
-.portfolio-item .item-wrap .overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-
-  opacity: 0;
-  -moz-opacity: 0;
-  filter: alpha(opacity=0);
-
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-
-  background: url(../public/images/overlay-bg.png) repeat;
-}
-
-.portfolio-item .item-wrap .link-icon {
-  display: block;
-  color: #fff;
-  height: 30px;
-  width: 30px;
-  font-size: 18px;
+  font-family: 'opensans-regular', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
   line-height: 30px;
-  text-align: center;
+  color: #838C95;
 
-  opacity: 0;
-  -moz-opacity: 0;
-  filter: alpha(opacity=0);
-
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -15px;
-  margin-top: -15px;
+  -webkit-font-smoothing: antialiased;
+  /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
 }
 
-.portfolio-item .item-wrap img {
-  vertical-align: bottom;
+h1 {
+  color: #e6118d;
+  font-family: 'opensans-bold', sans-serif;
+  font-weight: normal;
 }
 
-.portfolio-item .portfolio-item-meta {
-  padding: 18px
+h1 {
+  font-size: 38px;
+  line-height: 42px;
+  margin-bottom: 12px;
+  letter-spacing: -1px;
 }
 
-.portfolio-item .portfolio-item-meta h5 {
-  font: 14px/21px 'opensans-bold', sans-serif;
-  color: #fff;
+/*  3. Links  ------------------------------------------------------- */
+
+a:hover,
+a:focus {
+  color: whitesmoke;
 }
 
-.portfolio-item .portfolio-item-meta p {
-  font: 12px/18px 'opensans-light', sans-serif;
-  color: #c6c7c7;
-  margin-bottom: 0;
+/*  5. Images  --------------------------------------------------------- */
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-/* on hover */
-.portfolio-item:hover .overlay {
-  opacity: 1;
-  -moz-opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-.portfolio-item:hover .link-icon {
-  opacity: 1;
-  -moz-opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-/* popup modal */
-.popup-modal {
-  max-width: 550px;
-  background: #fff;
-  position: relative;
+.row {
+  width: 96%;
+  max-width: 1020px;
   margin: 0 auto;
 }
 
-.popup-modal .description-box {
-  padding: 12px 36px 18px 36px;
+.column,
+.columns {
+  position: relative;
+  padding: 0 20px;
+  min-height: 1px;
+  float: left;
 }
 
-.popup-modal .description-box h4 {
-  font: 15px/24px 'opensans-bold', sans-serif;
-  margin-bottom: 12px;
-  color: #111;
+/* block grids
+ --------------------------------------------------------------------- */
+
+.bgrid-quarters [class*="column"] {
+  width: 25%;
 }
 
-.popup-modal .description-box p {
-  font: 14px/24px 'opensans-regular', sans-serif;
-  color: #A1A1A1;
-  margin-bottom: 12px;
+.bgrid-thirds [class*="column"] {
+  width: 33.33333%;
 }
 
-.popup-modal .description-box .categories {
-  font: 11px/21px 'opensans-light', sans-serif;
-  color: #A1A1A1;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  display: block;
-  text-align: left;
+[class*="bgrid"] [class*="column"]+[class*="column"]:last-child {
+  float: left;
 }
 
-.popup-modal .description-box .categories i {
-  margin-right: 8px;
+/* Left clearing for block grid columns - columns that changes width in
+ different screen sizes. Allows columns with different heights to align
+ properly.
+ --------------------------------------------------------------------- */
+.first {
+  clear: left;
 }
 
-.popup-modal .link-box {
-  padding: 18px 36px;
-  background: #111;
-  text-align: left;
+/* first column in default screen */
+.s-first {
+  clear: none;
 }
 
-.popup-modal .link-box a {
-  color: #fff;
-  font: 11px/21px 'opensans-bold', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  cursor: pointer;
+/* first column in smaller screens */
+
+/* smaller screens
+ --------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+  /* block grids on small screens */
+  .s-bgrid-sixths [class*="column"] {
+    width: 16.66667%;
+  }
+
+  .s-bgrid-quarters [class*="column"] {
+    width: 25%;
+  }
+
+  .s-bgrid-thirds [class*="column"] {
+    width: 33.33333%;
+  }
+
+  .s-bgrid-halves [class*="column"] {
+    width: 50%;
+  }
+
+  /* block grids left clearing */
+  .first {
+    clear: none;
+  }
+
+  .s-first {
+    clear: left;
+  }
+
 }
 
-.popup-modal a:hover {
-  color: #00CCCC;
+/* mobile wide/smaller tablets
+ --------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+
+  .row {
+    width: 460px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .column,
+  .columns {
+    width: auto !important;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 30px;
+  }
+
+  .row .row {
+    width: auto;
+    max-width: none;
+    margin: 0 -30px;
+  }
+
+  [class*="column"]+[class*="column"]:last-child {
+    float: none;
+  }
+
+  [class*="bgrid"] [class*="column"]+[class*="column"]:last-child {
+    float: none;
+  }
+
 }
 
-.popup-modal a.popup-modal-dismiss {
-  margin-left: 24px;
+/* mobile narrow
+ --------------------------------------------------------------- */
+@media only screen and (max-width: 460px) {
+
+  .row {
+    width: auto;
+  }
+
 }
 
+/* larger screens
+ --------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
 
-/* fadein/fadeout effect for modal popup
-/* ------------------------------------------------------------------ */
+  .wide .row {
+    max-width: 1180px;
+  }
 
-/* content at start */
-.mfp-fade.mfp-wrap .mfp-content .popup-modal {
-  opacity: 0;
-  -webkit-transition: all 200ms ease-in-out;
-  -moz-transition: all 200ms ease-in-out;
-  -o-transition: all 200ms ease-in-out;
-  -ms-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
-}
-
-/* content fadein */
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
-  opacity: 1;
-}
-
-/* content fadeout */
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
-  opacity: 0;
 }
