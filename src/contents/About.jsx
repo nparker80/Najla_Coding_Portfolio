@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-
+import './About.css'
 class About extends Component {
   render() {
     return (
       <div className="condiv">
 
-        <h1 className="subtopic">"About Me"</h1>
+        <h1 className="subtopic">About Me</h1>
         <h4>Hey there!</h4>
         <h1>My name is Najla Parker</h1>
         <h3>Full Stack Web Developer</h3>
@@ -32,8 +32,6 @@ class About extends Component {
           application, working with servers, databases, and other back end technologies, and connecting them to the
           front end.
         </p>
-
-        <br></br>
 
         <p>
           I look forward to a lifetime of learning and evolving as well as the opportunity to problem solve. These

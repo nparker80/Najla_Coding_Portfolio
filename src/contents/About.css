@@ -1,0 +1,26 @@
+.App {
+  background-color: aqua;
+}
+
+.subtopic {
+  font-size: 70px;
+  margin: 10px 10px 30px 10px !important;
+}
+
+p {
+  font-size: 30px;
+  padding: 0px 50px 20px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 10px;
+}
+
+.condiv {
+  padding: 100px;
+  flex: 6;
+}
