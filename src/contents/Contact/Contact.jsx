@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Social from '../components/Social';
+import Social from '../../components/Social/Social';
+
 class Contact extends Component {
   render() {
     return (

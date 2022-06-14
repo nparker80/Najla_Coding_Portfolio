@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './contents/Home';
-import About from './contents/About';
-import Skills from './contents/Skills';
-import Contact from './contents/Contact';
-import Portfolio from './contents/Portfolio';
-import Navbar from './components/Navbar';
+import { About, Contact, Portfolio, Skills, Home } from './contents';
+import { Navbar } from './components';
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
