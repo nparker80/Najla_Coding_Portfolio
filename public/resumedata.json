@@ -1,69 +1,65 @@
-{
-  "portfolio": {
-    "projects": [
-      {
-        "title": "4 All Tech Blog",
-        "category": "Deployed or Walkthrough",
-        "image": "techblog.png",
-        "url": "https://for-all-tech-blog-nparker.herokuapp.com/",
-        "technology": "JavaScript, MySQL2, Handlebars, Bcrypt"
-      },
-      {
-        "title": "Gym Bunny",
-        "category": "Group Project",
-        "image": "gymbunny.png",
-        "url": "https://gymbunny1000.herokuapp.com/",
-        "technology": "HTML, CSSReactJS, GraphQL, MongoDB"
-      },
-      {
-        "title": "Just Another Text Editor",
-        "category": "Deployed or Walkthrough",
-        "image": "PWA.png",
-        "url": "https://code-saver-3000.herokuapp.com/",
-        "technology": "JavaScript, HTML, CSS"
-      },
-      {
-        "title": "Note Taker SBA",
-        "category": "Deployed or Walkthrough",
-        "image": "Note-Taker.png",
-        "url": "https://note-taker-sba.herokuapp.com/",
-        "technology": "JavaScript, HTML, CSS, Express, Node.js"
-      },
-      {
-        "title": "Codey Buddy",
-        "category": "Group Project",
-        "image": "codey-buddy.png",
-        "url": "https://nparker80.github.io/codey-buddy/",
-        "technology": "HTML, CSS, JavaScript, API"
-      },
-      {
-        "title": "Password Generator",
-        "category": "Deployed or Walkthrough",
-        "image": "password-generator.PNG",
-        "url": "https://nparker80.github.io/Random-Password-Generator/",
-        "technology": "JavaScript, HTML, CSS"
-      },
-      {
-        "title": "Weather Dashboard",
-        "category": "Deployed or Walkthrough",
-        "image": "weather-dashboard.PNG",
-        "url": "https://nparker80.github.io/weather-dashboard/",
-        "technology": "jQuery, HTML, CSS"
-      },
-      {
-        "title": "a-Plus E-Commerce",
-        "category": "Deployed or Walkthrough",
-        "image": "E-commerce_sql.png",
-        "url": "https://drive.google.com/file/d/1AoVxjgJZOerT6PMPznnZhCL7lWKMzciY/view",
-        "technology": "JavaScript, Insomnia, MySQL2"
-      },
-      {
-        "title": "Employee Tracker",
-        "category": "Deployed or Walkthrough",
-        "image": "employeeTracker.png",
-        "url": "https://drive.google.com/file/d/1PO7IP4yyhgUADwFYL9OrVbwM0ZUj7TeF/views",
-        "technology": "Node, Express, Inquirer, mySQL2"
-      }
-    ]
+export const projects = [
+  {
+    "title": "4 All Tech Blog",
+    "category": "Deployed or Walkthrough",
+    "image": "techblog.png",
+    "url": "https://for-all-tech-blog-nparker.herokuapp.com/",
+    "technology": "JavaScript, MySQL2, Handlebars, Bcrypt"
+  },
+  {
+    "title": "Gym Bunny",
+    "category": "Group Project",
+    "image": "gymbunny.png",
+    "url": "https://gymbunny1000.herokuapp.com/",
+    "technology": "HTML, CSSReactJS, GraphQL, MongoDB"
+  },
+  {
+    "title": "Just Another Text Editor",
+    "category": "Deployed or Walkthrough",
+    "image": "PWA.png",
+    "url": "https://code-saver-3000.herokuapp.com/",
+    "technology": "JavaScript, HTML, CSS"
+  },
+  {
+    "title": "Note Taker SBA",
+    "category": "Deployed or Walkthrough",
+    "image": "Note-Taker.png",
+    "url": "https://note-taker-sba.herokuapp.com/",
+    "technology": "JavaScript, HTML, CSS, Express, Node.js"
+  },
+  {
+    "title": "Codey Buddy",
+    "category": "Group Project",
+    "image": "codey-buddy.png",
+    "url": "https://nparker80.github.io/codey-buddy/",
+    "technology": "HTML, CSS, JavaScript, API"
+  },
+  {
+    "title": "Password Generator",
+    "category": "Deployed or Walkthrough",
+    "image": "password-generator.PNG",
+    "url": "https://nparker80.github.io/Random-Password-Generator/",
+    "technology": "JavaScript, HTML, CSS"
+  },
+  {
+    "title": "Weather Dashboard",
+    "category": "Deployed or Walkthrough",
+    "image": "weather-dashboard.PNG",
+    "url": "https://nparker80.github.io/weather-dashboard/",
+    "technology": "jQuery, HTML, CSS"
+  },
+  {
+    "title": "a-Plus E-Commerce",
+    "category": "Deployed or Walkthrough",
+    "image": "E-commerce_sql.png",
+    "url": "https://drive.google.com/file/d/1AoVxjgJZOerT6PMPznnZhCL7lWKMzciY/view",
+    "technology": "JavaScript, Insomnia, MySQL2"
+  },
+  {
+    "title": "Employee Tracker",
+    "category": "Deployed or Walkthrough",
+    "image": "employeeTracker.png",
+    "url": "https://drive.google.com/file/d/1PO7IP4yyhgUADwFYL9OrVbwM0ZUj7TeF/views",
+    "technology": "Node, Express, Inquirer, mySQL2"
   }
-}
+]
