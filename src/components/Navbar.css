@@ -16,7 +16,7 @@ nav ul {
 }
 
 .resume {
-  padding: 20px;
+  padding: 40px;
   font-size: 20px;
   list-style-type: none;
   color: white !important;
@@ -27,14 +27,6 @@ nav ul {
 
 nav ul li {
   margin: 40px;
-}
-
-.resume {
-  font-size: 20px;
-  list-style-type: none;
-  color: white !important;
-  display: flex;
-  align-items: right;
 }
 
 .active {

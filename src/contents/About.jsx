@@ -6,9 +6,6 @@ class About extends Component {
       <div className="condiv">
 
         <h1 className="subtopic">About Me</h1>
-        <h4>Hey there!</h4>
-        <h1>My name is Najla Parker</h1>
-        <h3>Full Stack Web Developer</h3>
         <br></br>
         <p> Welcome! My name is Najla Parker and I am currently working as a program planner in the Program
           Management

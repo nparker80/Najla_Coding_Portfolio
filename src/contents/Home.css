@@ -19,6 +19,7 @@ span {
 .typingeffect {
   display: block;
   text-transform: lowercase;
+  padding: 40px 0px 0px 250px;
   font-weight: bold;
   color: #F2D349;
   font-family: 'Dancing Script', cursive;
