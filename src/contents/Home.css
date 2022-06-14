@@ -1,0 +1,27 @@
+.profilepic {
+  border-radius: 50%;
+  width: 400px;
+  margin: 30px;
+}
+
+.introduction {
+  text-transform: uppercase;
+  color: #5C6E58;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  display: inline-block;
+}
+
+span {
+  color: #8AA899
+}
+
+.typingeffect {
+  display: block;
+  text-transform: lowercase;
+  font-weight: bold;
+  color: #F2D349;
+  font-family: 'Dancing Script', cursive;
+  font-size: 120px;
+  margin-bottom: 30px;
+}

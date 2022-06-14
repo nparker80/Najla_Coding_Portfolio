@@ -8,8 +8,13 @@
   background: transparent;
 }
 
+.condiv {
+  padding: 100px;
+  background-color: #f4f5f9;
+}
+
 h1 {
-  color: #e6118d;
+  color: #8AA899;
   font-family: 'opensans-bold', sans-serif;
   font-weight: normal;
 }
