@@ -37,3 +37,22 @@ a {
   text-decoration: none;
   color: rgb(31, 28, 28);
 }
+
+@media (max-width: 640px) {
+  nav {
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 0.8em 0;
+  }
+
+  .resume {
+    flex-direction: column;
+    text-align: center;
+  }
+}

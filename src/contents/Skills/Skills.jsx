@@ -2,7 +2,7 @@ import Skill from './Skill'
 import './Skills.css';
 
 function Skills() {
-  return (
+  return (<div class="condiv">
     <div className="skills">
       <h2>I have experience with these technologies</h2>
       <div className="skillsGrid">
@@ -27,6 +27,7 @@ function Skills() {
         <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="The logo icon for Sequelize" title="Sequelize" />
       </div>
     </div>
+  </div>
   )
 }
 export default Skills
