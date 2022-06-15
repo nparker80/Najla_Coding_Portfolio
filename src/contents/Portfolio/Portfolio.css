@@ -5,12 +5,12 @@
 }
 
 #portfolio h1 {
-  font: 15px/24px 'opensans-semibold', sans-serif;
+  font: 30px/24px 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: #95A3A3;
+  color: #5C6E58;
 }
 
 /* Portfolio Content */
@@ -55,10 +55,10 @@
 
 .portfolio-item .item-wrap .link-icon {
   display: block;
-  color: #8AA899;
+  color: #F2D349;
   height: 30px;
   width: 30px;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 30px;
   text-align: center;
 
@@ -79,7 +79,8 @@
 }
 
 .item-wrap {
-  border: 1px solid;
+  border: 4px dotted #8AA899;
+  ;
 }
 
 .portfolio-item .item-wrap img {
@@ -91,21 +92,20 @@
 }
 
 .portfolio-item .portfolio-item-meta h5 {
-  font: 14px/21px 'opensans-bold', sans-serif;
+  font: 18px/21px 'opensans-bold', sans-serif;
   color: #fff;
 }
 
 .portfolio-item .portfolio-item-meta p {
-  font: 12px/18px 'opensans-light', sans-serif;
+  font: 16px/18px 'opensans-light', sans-serif;
   color: #c6c7c7;
   margin-bottom: 0;
 }
 
 /* on hover */
 .portfolio-item:hover .overlay {
-
-  opacity: 80%;
-  background-color: #F2D349;
+  opacity: 95%;
+  background-color: #5c6e58;
   ;
 }
 

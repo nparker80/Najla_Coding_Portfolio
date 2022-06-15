@@ -33,7 +33,7 @@ const Portfolio = ({ data }) => {
     <div className="condiv home">
       <section id="portfolio">
         <div className="row">
-          <h1>Check out some of my recent creations</h1>
+          <h1>Some of my favorite projects</h1>
 
           <div
             id="portfolio-wrapper"
