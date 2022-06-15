@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
-import { images } from '../../constants';
+import profilepic from '../../assets/najla.jpg';
 import './Home.css';
 import Social from '../../components/Social/Social';
 
@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <div className="condiv home">
 
-        <img src={images.najla} alt="profilepic" />
+        <img src={profilepic} alt="profilepic" />
         <h1 className="introduction">Hey and hi,<span>
           <br></br>
           My name is Najla and I am a full stack web developer.</span></h1>

@@ -33,30 +33,6 @@ a:focus {
   font-size: 25px;
 }
 
-/*  5. Images  --------------------------------------------------------- */
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.row {
-  width: 96%;
-  max-width: 1020px;
-  margin: 0 auto;
-}
-
-.column,
-.columns {
-  position: relative;
-  padding: 0 20px;
-  min-height: 1px;
-  float: left;
-}
-
-/* block grids
- --------------------------------------------------------------------- */
-
 .bgrid-quarters [class*="column"] {
   width: 25%;
 }
@@ -69,23 +45,6 @@ img {
   float: left;
 }
 
-/* Left clearing for block grid columns - columns that changes width in
- different screen sizes. Allows columns with different heights to align
- properly.
- --------------------------------------------------------------------- */
-.first {
-  clear: left;
-}
-
-/* first column in default screen */
-.s-first {
-  clear: none;
-}
-
-/* first column in smaller screens */
-
-/* smaller screens
- --------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
 
   /* block grids on small screens */
