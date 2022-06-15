@@ -6,6 +6,7 @@
 
 .introduction {
   text-transform: uppercase;
+  line-height: 58px;
   color: #5C6E58;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-size: 40px;

@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <div className="condiv home">
 
-        <img src={profilepic} alt="profilepic" />
+        <img src={profilepic} className='profilepic' alt='Najlapic' />
         <h1 className="introduction">Hey and hi,<span>
           <br></br>
           My name is Najla and I am a full stack web developer.</span></h1>
