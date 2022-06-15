@@ -7,6 +7,11 @@
   vertical-align: baseline;
 }
 
+.condiv {
+  background-color: #5C6E58;
+  padding: 100px;
+  flex: 6;
+}
 
 h1 {
   color: #8AA899;
