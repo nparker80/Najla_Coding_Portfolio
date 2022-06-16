@@ -13,19 +13,6 @@
   flex: 6;
 }
 
-h1 {
-  color: #8AA899;
-  font-family: 'opensans-bold', sans-serif;
-  font-weight: normal;
-}
-
-h1 {
-  font-size: 38px;
-  line-height: 42px;
-  margin-bottom: 12px;
-  letter-spacing: -1px;
-}
-
 /*  3. Links  ------------------------------------------------------- */
 
 a:hover,

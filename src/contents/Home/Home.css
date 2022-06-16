@@ -5,7 +5,7 @@
   max-height: 400px;
 }
 
-.introduction {
+h1 {
   text-transform: uppercase;
   line-height: 58px;
   color: rgb(209, 197, 179);
@@ -13,6 +13,8 @@
   font-size: 45px;
   display: inline-block;
 }
+
+.home {}
 
 span {
   color: #8AA899
@@ -26,8 +28,37 @@ span {
   color: #F2D349;
   font-family: 'Dancing Script', cursive;
   font-size: 120px;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
 }
+
+/* 
+@media screen and (max-width: 641px) {
+  .profilepic {
+    height: 30%;
+    width: 30%;
+  }
+
+  .introduction {
+    text-transform: uppercase;
+    line-height: 30px;
+    color: rgb(209, 197, 179);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    display: inline-block;
+  }
+
+  .typingeffect {
+    display: block;
+    text-transform: lowercase;
+    padding: 40px 0px 0px 50px;
+    font-weight: bold;
+    color: #F2D349;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+}
+ */
 
 /* @media screen and (min-width: 641px) {
   .profilepic {
@@ -55,31 +86,3 @@ span {
     margin-bottom: 20px;
   }
 } */
-
-
-@media screen and (max-width: px) {
-  .profilepic {
-    height: 30%;
-    width: 30%;
-  }
-
-  .introduction {
-    text-transform: uppercase;
-    line-height: 30px;
-    color: rgb(209, 197, 179);
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 35px;
-    display: inline-block;
-  }
-
-  .typingeffect {
-    display: block;
-    text-transform: lowercase;
-    padding: 40px 0px 0px 50px;
-    font-weight: bold;
-    color: #F2D349;
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
-    margin-bottom: 20px;
-  }
-}
