@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Social from '../../components/Social/Social';
-import './Contact.css';
+import './Contact.scss';
 
 class Contact extends Component {
   render() {

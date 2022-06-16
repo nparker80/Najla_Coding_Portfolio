@@ -1,5 +1,5 @@
 import Skill from './Skill'
-import './Skills.css';
+import './Skills.scss';
 
 function Skills() {
   return (<div class="condiv">
