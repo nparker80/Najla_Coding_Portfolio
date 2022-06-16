@@ -1,7 +1,8 @@
 .profilepic {
-  border-radius: 50%;
-  width: 400px;
-  margin: 30px;
+  border-radius: 35% 85% 0% 90%;
+  margin: 80px;
+  max-width: 350px;
+  max-height: 400px;
 }
 
 .introduction {
@@ -26,4 +27,32 @@ span {
   font-family: 'Dancing Script', cursive;
   font-size: 120px;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .profilepic {
+    align: left 40px;
+    height: 40%;
+    width: 40%;
+  }
+
+  .introduction {
+    text-transform: uppercase;
+    line-height: 30px;
+    color: rgb(209, 197, 179);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    display: inline-block;
+  }
+
+  .typingeffect {
+    display: block;
+    text-transform: lowercase;
+    padding: 40px 0px 0px 50px;
+    font-weight: bold;
+    color: #F2D349;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
 }
