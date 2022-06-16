@@ -11,16 +11,6 @@
   padding: 20px;
 }
 
-.blog-div {
-  margin-left: 4em;
-  margin-right: 4em;
-}
-
-.blog-div h2 {
-  text-align: center;
-  margin-bottom: 1em;
-}
-
 .skillsGrid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -76,23 +66,6 @@
     justify-content: center;
     align-items: center;
   }
-
-  /* Blog posts section */
-  .blog-container {
-    height: auto;
-    overflow: hidden;
-  }
-
-
-  .blogPost img {
-    max-height: 10em;
-    max-width: 20em;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1em;
-  }
-
 }
 
 /* Medium Screens min width 641px change to 4 columns */
@@ -122,34 +95,7 @@
     align-items: center;
   }
 
-  /* BLOG POSTS */
-
-  .blog-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    grid-auto-rows: auto;
-    height: auto;
-  }
-
-  .blogPost {
-    width: 300px;
-    grid-column: 1/2;
-  }
-
-
-  .blogPost img {
-    max-height: 10em;
-    max-width: 20em;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1em;
-  }
-
 }
-
-/* Large Screens min width 1080px change to 8 columns */
 
 @media screen and (min-width: 1080px) {
   .skillsGrid {
