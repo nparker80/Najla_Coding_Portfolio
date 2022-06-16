@@ -1,36 +1,56 @@
-import React, { Component } from 'react';
-import './Navbar.css';
-import Navitem from './Navitem';
+import { useState } from "react";
+import "./Navbar.css";
 
-class Navbar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      'NavItemActive': ''
-    }
-  }
-  activeitem = (x) => {
-    if (this.state.NavItemActive.length > 0) {
-      document.getElementById(this.state.NavItemActive).classList.remove('active');
-    }
-    this.setState({ 'NavItemActive': x }, () => {
-      document.getElementById(this.state.NavItemActive).classList.add('active');
-    });
-  };
-  render() {
-    return (
-      <nav>
+export default function Navbar() {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+
+  return (
+    <nav className="navigation">
+      <a href="Najla_Parker_Resume.pdf" className="brand-name">
+        Resume
+      </a>
+      <button
+        className="hamburger"
+        onClick={() => {
+          setIsNavExpanded(!isNavExpanded);
+        }}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-5 w-5"
+          viewBox="0 0 20 20"
+          fill="white"
+        >
+          <path
+            fillRule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+            clipRule="evenodd"
+          />
+        </svg>
+      </button>
+      <div
+        className={
+          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+        }
+      >
         <ul>
-          <Navitem item="Home" tolink="/" activec={this.activeitem}></Navitem>
-          <Navitem item="About" tolink="/about" activec={this.activeitem}></Navitem>
-          <Navitem item="Skills" tolink="/skills" activec={this.activeitem}></Navitem>
-          <Navitem item="Contact" tolink="/contact" activec={this.activeitem}></Navitem>
-          <Navitem item="Portfolio" tolink="/portfolio" activec={this.activeitem}></Navitem>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/skills">Skills</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+          <li>
+            <a href="/portfolio">Portfolio</a>
+          </li>
         </ul>
-        <div className='resume'><a href="Najla_Parker_Resume.pdf" download>Resume</a></div>
-      </nav>
-    )
-  }
+      </div>
+    </nav>
+  );
 }
-
-export default Navbar

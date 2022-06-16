@@ -3,14 +3,14 @@
   margin-top: 20px;
   display: flex;
   bottom: 60px;
-
 }
 
 .social i {
   padding-right: 30px;
   font-size: 45px;
+  color: #8aa899;
 }
 
 .social i:hover {
-  color: #8AA899
+  color: rgb(209, 197, 179);
 }
