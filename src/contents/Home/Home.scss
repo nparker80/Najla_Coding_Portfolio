@@ -1,39 +1,41 @@
-.condiv home {
+.condiv-home {
+  background-color: #5C6E58;
+  padding: 10px;
+  flex: 6;
+  height: 100%;
+}
 
-  .profilepic {
-    border-radius: 35% 85% 0% 90%;
-    margin: 80px;
-    max-width: 350px;
-    max-height: 400px;
-  }
+.profilepic {
+  border-radius: 35% 85% 0% 90%;
+  margin: 80px;
+  max-width: 350px;
+  max-height: 400px;
+}
 
-  h1 {
-    text-transform: uppercase;
-    line-height: 58px;
-    color: rgb(209, 197, 179);
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 45px;
-    display: inline-block;
-  }
+h1 {
+  text-transform: uppercase;
+  line-height: 58px;
+  color: rgb(209, 197, 179);
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 45px;
+  display: inline-block;
+}
 
-  .home {}
+span {
+  color: #8AA899
+}
 
-  span {
-    color: #8AA899
-  }
+.typingeffect {
+  display: block;
+  text-transform: lowercase;
+  padding: 40px 0px 0px 250px;
+  font-weight: bold;
+  color: #F2D349;
+  font-family: 'Dancing Script', cursive;
+  font-size: 120px;
+  margin-bottom: 200px;
+}
 
-  .typingeffect {
-    display: block;
-    text-transform: lowercase;
-    padding: 40px 0px 0px 250px;
-    font-weight: bold;
-    color: #F2D349;
-    font-family: 'Dancing Script', cursive;
-    font-size: 120px;
-    margin-bottom: 200px;
-  }
-
-  /* 
 @media screen and (max-width: 641px) {
   .profilepic {
     height: 30%;
@@ -60,9 +62,8 @@
     margin-bottom: 20px;
   }
 }
- */
 
-  /* @media screen and (min-width: 641px) {
+@media screen and (min-width: 641px) {
   .profilepic {
     height: 30%;
     width: 30%;
@@ -87,5 +88,4 @@
     font-size: 40px;
     margin-bottom: 20px;
   }
-} */
 }

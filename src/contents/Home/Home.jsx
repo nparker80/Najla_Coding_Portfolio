@@ -7,7 +7,7 @@ import Social from '../../components/Social/Social';
 class Home extends Component {
   render() {
     return (
-      <div className="condiv home">
+      <div className="condiv-home">
 
         <img src={profilepic} className='profilepic' alt='Najlapic' />
         <h1 className="introduction">Hey and hi,<span>

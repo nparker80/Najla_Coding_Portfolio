@@ -1,8 +1,17 @@
+#app__container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
 .condiv {
   background-color: #5C6E58;
   padding: 100px;
-  flex: 6;
+  flex: var(--condiv-flex);
+
 }
+
 
 
 .subtopic {

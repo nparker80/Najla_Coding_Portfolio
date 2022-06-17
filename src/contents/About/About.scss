@@ -1,28 +1,29 @@
+.condiv-about {
+  background-color: #5C6E58;
+  padding: 25px;
+  flex: 6;
+
+
+}
+
 .about__content {
 
   .subtopic {
-    font-size: 30px;
+    font-size: 22px;
     text-align: left;
     display: inline;
   }
 
-  @media screen and (max-width: 480px) {
-
-    .subtopic {
-      font-size: 17.5px;
-    }
-  }
-
   p {
-    font-size: 25px;
+    font-size: 19px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: #fff
   }
 
-  @media screen and (max-width: 480px) {
-    p {
-      font-size: 12.5px;
-    }
-
+  @media screen and (min-width: 1024px) {
+    line-height: 1.5;
+    margin: 3% 30%;
   }
+
+
 }
