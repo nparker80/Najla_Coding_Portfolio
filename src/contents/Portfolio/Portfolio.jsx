@@ -30,7 +30,7 @@ const Portfolio = ({ data }) => {
 
   return (
 
-    <div className="condiv home">
+    <div className="condiv portfolio">
       <section id="portfolio">
         <div className="row">
           <h1>Some of my favorite projects</h1>

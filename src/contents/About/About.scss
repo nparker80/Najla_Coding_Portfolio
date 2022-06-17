@@ -1,23 +1,28 @@
-.subtopic {
-  font-size: 35px;
-  font-weight: bold;
-  color: #fff;
-  margin: 10px 10px 30px 10px !important;
-}
+.about__content {
 
-p {
-  text-align: left;
-  padding: 0px 50px 30px 0px;
-  line-height: 30px;
-}
+  .subtopic {
+    font-size: 30px;
+    text-align: left;
+    display: inline;
+  }
 
-h1,
-h2,
-h3,
-h4,
-p {
-  color: #fff;
-  margin: 10px;
-  font-weight: normal;
-  font-size: 25px;
+  @media screen and (max-width: 480px) {
+
+    .subtopic {
+      font-size: 17.5px;
+    }
+  }
+
+  p {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: #fff
+  }
+
+  @media screen and (max-width: 480px) {
+    p {
+      font-size: 12.5px;
+    }
+
+  }
 }

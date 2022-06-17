@@ -4,42 +4,24 @@ class About extends Component {
   render() {
     return (
       <div className="condiv">
-        <div className="container">
+        <div className="about__content">
           <h1 className="subtopic">About Me</h1>
           <br></br>
-          <p> Welcome! My name is Najla Parker and I am currently working as a program planner in the Program
-            Management
-            Organization within Raytheon Technologies. I have spent the last 7 years working in the defense
-            contractor
-            industry
-            supporting various types of programs and honing my project management skills.
-          </p>
+          <p> Hi, I am Najla Parker! In April 2022 I received my certificate from the University of Denver after completing a 24-week Coding Bootcamp.</p>
 
-          <p> After working with
-            software
-            development teams and participating in the timing of releases, increment planning and observing the
-            backlog grooming
-            sessions; I decided it was my turn! This is what led me to join the 24 week Coding Bootcamp at The
-            University of Denver.
-          </p>
-
-          <p> I have acquired skills in the fundamental concepts of web development (HTML, CSS, and JavaScript), as
-            well
-            as command line fundamentals and APIs. In addition, I am learning to engineer a full-stack web
+          <p> I acquired skills in the fundamental concepts of web development (HTML, CSS, and JavaScript), as
+            well as command line fundamentals and APIs. In addition, my final team project was a full stack web
             application, working with servers, databases, and other back end technologies, and connecting them to the
             front end.
           </p>
 
           <p>
-            I look forward to a lifetime of learning and evolving as well as the opportunity to problem solve. These
-            are my favorite aspects of
-            being a developer thus far and something I employ daily in my current role. As I continue the journey to
-            become a
-            full stack developer, I am keeping an open mind and trying to discover what I most enjoy.
+            My goal is to code daily. Since completing bootcamp, I have revisited some concepts and built on my existing knowledge. My first solo project will be an E-Commerce site to showcase my knowledge of full stack web development. Upon completion, I will study Python. I am excited to land my first job in tech and look forward to the learning ahead of me!
           </p>
-        </div>
-      </div>
+        </div >
+      </div >
     )
   }
 }
 export default About
+

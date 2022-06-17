@@ -1,37 +1,39 @@
-.profilepic {
-  border-radius: 35% 85% 0% 90%;
-  margin: 80px;
-  max-width: 350px;
-  max-height: 400px;
-}
+.condiv home {
 
-h1 {
-  text-transform: uppercase;
-  line-height: 58px;
-  color: rgb(209, 197, 179);
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-  font-size: 45px;
-  display: inline-block;
-}
+  .profilepic {
+    border-radius: 35% 85% 0% 90%;
+    margin: 80px;
+    max-width: 350px;
+    max-height: 400px;
+  }
 
-.home {}
+  h1 {
+    text-transform: uppercase;
+    line-height: 58px;
+    color: rgb(209, 197, 179);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    display: inline-block;
+  }
 
-span {
-  color: #8AA899
-}
+  .home {}
 
-.typingeffect {
-  display: block;
-  text-transform: lowercase;
-  padding: 40px 0px 0px 250px;
-  font-weight: bold;
-  color: #F2D349;
-  font-family: 'Dancing Script', cursive;
-  font-size: 120px;
-  margin-bottom: 200px;
-}
+  span {
+    color: #8AA899
+  }
 
-/* 
+  .typingeffect {
+    display: block;
+    text-transform: lowercase;
+    padding: 40px 0px 0px 250px;
+    font-weight: bold;
+    color: #F2D349;
+    font-family: 'Dancing Script', cursive;
+    font-size: 120px;
+    margin-bottom: 200px;
+  }
+
+  /* 
 @media screen and (max-width: 641px) {
   .profilepic {
     height: 30%;
@@ -60,7 +62,7 @@ span {
 }
  */
 
-/* @media screen and (min-width: 641px) {
+  /* @media screen and (min-width: 641px) {
   .profilepic {
     height: 30%;
     width: 30%;
@@ -86,3 +88,4 @@ span {
     margin-bottom: 20px;
   }
 } */
+}
