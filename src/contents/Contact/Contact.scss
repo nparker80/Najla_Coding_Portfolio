@@ -1,40 +1,40 @@
 .condiv-contact {
   background-color: #5C6E58;
-  flex: 6;
+  flex: 6
 }
 
-h3 {
-  text-align: center;
-}
 
 .contact__content {
   p {
+    padding: 100px;
     text-align: center;
-    padding-left: 50px;
     line-height: 40px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
     color: #fff;
+  }
 
-    @media screen and (min-width: 320px) {
-      padding-left: 10px;
-      line-height: 27px;
-      font-size: 15px;
-      font-family: Arial, Helvetica, sans-serif;
-      margin-bottom: 60px;
-
-    }
-
-    .subtopic {
+  @media screen and (min-width: 320px) {
+    p {
+      line-height: 30px;
       font-size: 25px;
-
-      @media screen and (min-width:320px) {
-        font-size: 15px;
-
-      }
+      padding: 5px;
     }
 
+  }
 
+  h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  @media screen and (min-width:320px) {
+    font-size: 15px;
+
+  }
+
+  h3 {
+    text-align: center
   }
 }
