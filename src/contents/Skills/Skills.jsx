@@ -2,7 +2,7 @@ import Skill from './Skill'
 import './Skills.scss';
 
 function Skills() {
-  return (<div class="condiv skills">
+  return (<div class="condiv-skills" id="app__container">
     <div className="skills">
       <h2>I have experience with these technologies</h2>
       <div className="skillsGrid">
