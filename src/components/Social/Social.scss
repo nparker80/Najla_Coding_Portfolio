@@ -3,14 +3,29 @@
   margin-top: 20px;
   display: flex;
   bottom: 60px;
+  padding-left: 10px;
+
+  @media screen and (min-width: 769px) {
+    padding-left: 20px;
+
+  }
 }
 
 .social i {
   padding-right: 30px;
-  font-size: 45px;
-  color: #8aa899;
-}
+  font-size: 25px;
+  color: #9a9b9c;
 
-.social i:hover {
-  color: rgb(209, 197, 179);
+
+  @media screen and (min-width: 320px) {
+    font-size: 30px;
+  }
+
+  @media screen and (min-width: 769px) {
+    font-size: 40px;
+  }
+
+  .social i:hover {
+    color: rgb(209, 197, 179);
+  }
 }
