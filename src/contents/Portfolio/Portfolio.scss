@@ -1,16 +1,369 @@
+p {
+  margin: 0 0 30px 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img.pull-right {
+  margin: 12px 0px 0px 18px;
+}
+
+img.pull-left {
+  margin: 12px 18px 0px 0px;
+}
+
+.row {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+/* fixed width for IE8 */
+.ie .row {
+  width: 1000px;
+}
+
+.narrow .row {
+  max-width: 980px;
+}
+
+.row .row {
+  width: auto;
+  max-width: none;
+  margin: 0 -20px;
+}
+
+/* row clearing */
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.column,
+.columns {
+  position: relative;
+  padding: 0 20px;
+  min-height: 1px;
+  float: left;
+}
+
+.column.centered,
+.columns.centered {
+  float: none;
+  margin: 0 auto;
+}
+
+/* removed gutters */
+.row.collapsed>.column,
+.row.collapsed>.columns,
+.column.collapsed,
+.columns.collapsed {
+  padding: 0;
+}
+
+[class*="column"]+[class*="column"]:last-child {
+  float: right;
+}
+
+[class*="column"]+[class*="column"].end {
+  float: right;
+}
+
+/* column widths */
+.row .one {
+  width: 8.33333%;
+}
+
+.row .two {
+  width: 16.66667%;
+}
+
+.row .three {
+  width: 25%;
+}
+
+.row .four {
+  width: 33.33333%;
+}
+
+.row .five {
+  width: 41.66667%;
+}
+
+.row .six {
+  width: 50%;
+}
+
+.row .seven {
+  width: 58.33333%;
+}
+
+.row .eight {
+  width: 66.66667%;
+}
+
+.row .nine {
+  width: 75%;
+}
+
+.row .ten {
+  width: 83.33333%;
+}
+
+.row .eleven {
+  width: 91.66667%;
+}
+
+.row .twelve {
+  width: 100%;
+}
+
+/* Offsets */
+.row .offset-1 {
+  margin-left: 8.33333%;
+}
+
+.row .offset-2 {
+  margin-left: 16.66667%;
+}
+
+.row .offset-3 {
+  margin-left: 25%;
+}
+
+.row .offset-4 {
+  margin-left: 33.33333%;
+}
+
+.row .offset-5 {
+  margin-left: 41.66667%;
+}
+
+.row .offset-6 {
+  margin-left: 50%;
+}
+
+.row .offset-7 {
+  margin-left: 58.33333%;
+}
+
+.row .offset-8 {
+  margin-left: 66.66667%;
+}
+
+.row .offset-9 {
+  margin-left: 75%;
+}
+
+.row .offset-10 {
+  margin-left: 83.33333%;
+}
+
+.row .offset-11 {
+  margin-left: 91.66667%;
+}
+
+/* block grids
+ --------------------------------------------------------------------- */
+.bgrid-sixths [class*="column"] {
+  width: 16.66667%;
+}
+
+.bgrid-quarters [class*="column"] {
+  width: 25%;
+}
+
+.bgrid-thirds [class*="column"] {
+  width: 33.33333%;
+}
+
+.bgrid-halves [class*="column"] {
+  width: 50%;
+}
+
+[class*="bgrid"] [class*="column"]+[class*="column"]:last-child {
+  float: left;
+}
+
+/* Left clearing for block grid columns - columns that changes width in
+ different screen sizes. Allows columns with different heights to align
+ properly.
+ --------------------------------------------------------------------- */
+.first {
+  clear: left;
+}
+
+/* first column in default screen */
+.s-first {
+  clear: none;
+}
+
+/* first column in smaller screens */
+
+/* smaller screens
+ --------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+  /* block grids on small screens */
+  .s-bgrid-sixths [class*="column"] {
+    width: 16.66667%;
+  }
+
+  .s-bgrid-quarters [class*="column"] {
+    width: 25%;
+  }
+
+  .s-bgrid-thirds [class*="column"] {
+    width: 33.33333%;
+  }
+
+  .s-bgrid-halves [class*="column"] {
+    width: 50%;
+  }
+
+  /* block grids left clearing */
+  .first {
+    clear: none;
+  }
+
+  .s-first {
+    clear: left;
+  }
+
+}
+
+/* mobile wide/smaller tablets
+ --------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+
+  .row {
+    width: 460px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .column,
+  .columns {
+    width: auto !important;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 30px;
+  }
+
+  .row .row {
+    width: auto;
+    max-width: none;
+    margin: 0 -30px;
+  }
+
+  [class*="column"]+[class*="column"]:last-child {
+    float: none;
+  }
+
+  [class*="bgrid"] [class*="column"]+[class*="column"]:last-child {
+    float: none;
+  }
+
+  /* Offsets */
+  .row .offset-1 {
+    margin-left: 0%;
+  }
+
+  .row .offset-2 {
+    margin-left: 0%;
+  }
+
+  .row .offset-3 {
+    margin-left: 0%;
+  }
+
+  .row .offset-4 {
+    margin-left: 0%;
+  }
+
+  .row .offset-5 {
+    margin-left: 0%;
+  }
+
+  .row .offset-6 {
+    margin-left: 0%;
+  }
+
+  .row .offset-7 {
+    margin-left: 0%;
+  }
+
+  .row .offset-8 {
+    margin-left: 0%;
+  }
+
+  .row .offset-9 {
+    margin-left: 0%;
+  }
+
+  .row .offset-10 {
+    margin-left: 0%;
+  }
+
+  .row .offset-11 {
+    margin-left: 0%;
+  }
+}
+
+/* mobile narrow
+ --------------------------------------------------------------- */
+@media only screen and (max-width: 460px) {
+
+  .row {
+    width: auto;
+  }
+
+}
+
+/* larger screens
+ --------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+
+  .wide .row {
+    max-width: 1180px;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* e. Portfolio Section
+/* ------------------------------------------------------------------ */
+
 #portfolio {
-  background: #ebeeee;
+  background: #5C6E58;
   padding-top: 90px;
   padding-bottom: 60px;
 }
 
 #portfolio h1 {
-  font: 30px/24px 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: #5C6E58;
+  color: #fff;
 }
 
 /* Portfolio Content */
@@ -22,6 +375,8 @@
   background: #fff;
   overflow: hidden;
   position: relative;
+  border-style: dashed solid;
+  border-color: rgb(209, 197, 179);
 
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -37,6 +392,8 @@
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
+
+  background-color: #8AA899;
   position: absolute;
   left: 0;
   top: 0;
@@ -58,7 +415,7 @@
   color: #F2D349;
   height: 30px;
   width: 30px;
-  font-size: 25px;
+  font-size: 18px;
   line-height: 30px;
   text-align: center;
 
@@ -72,15 +429,10 @@
   transition: opacity 0.3s ease-in-out;
 
   position: absolute;
-  top: 50%;
+  top: 12%;
   left: 50%;
   margin-left: -15px;
   margin-top: -15px;
-}
-
-.item-wrap {
-  border: 4px dotted #8AA899;
-  ;
 }
 
 .portfolio-item .item-wrap img {
@@ -88,47 +440,29 @@
 }
 
 .portfolio-item .portfolio-item-meta {
-  padding: 18px
+  padding: 18px;
 }
 
 .portfolio-item .portfolio-item-meta h5 {
-  font: 18px/21px 'opensans-bold', sans-serif;
   color: #fff;
+  margin: 10px 0px 7px 0px;
 }
 
 .portfolio-item .portfolio-item-meta p {
-  font: 16px/18px 'opensans-light', sans-serif;
+  font: 12px/18px 'opensans-light', sans-serif;
   color: #c6c7c7;
   margin-bottom: 0;
 }
 
 /* on hover */
 .portfolio-item:hover .overlay {
-  opacity: 95%;
-  background-color: #5c6e58;
-  ;
+  opacity: 86%;
+  -moz-opacity: 1;
+  filter: alpha(opacity=100);
 }
 
 .portfolio-item:hover .link-icon {
   opacity: 1;
   -moz-opacity: 1;
   filter: alpha(opacity=100);
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.row {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.column,
-.columns {
-  position: relative;
-  padding: 10px 0px 100px 100px;
-  min-height: 1px;
-  float: left;
 }

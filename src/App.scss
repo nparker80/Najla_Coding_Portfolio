@@ -8,7 +8,7 @@
 .condiv {
   background-color: #5C6E58;
   padding: 100px;
-  flex: var(--condiv-flex);
+  flex: 6;
 
 }
 
@@ -19,107 +19,35 @@
   color: #fff;
 }
 
-/*  3. Links  ------------------------------------------------------- */
 
-a:hover,
-a:focus {
-  color: #5C6E58;
-  font-size: 25px;
+element.style {}
+
+.portfolio-item .item-wrap a {
+  display: block;
+  cursor: pointer;
 }
 
-.bgrid-quarters [class*="column"] {
-  width: 25%;
+a,
+a:visited {
+  text-decoration: none;
+  outline: 0;
+  color: #11ABB0;
+  -webkit-transition: color .3s ease-in-out;
+  -moz-transition: color .3s ease-in-out;
+  -o-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
 }
 
-.bgrid-thirds [class*="column"] {
-  width: 33.33333%;
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-[class*="bgrid"] [class*="column"]+[class*="column"]:last-child {
-  float: left;
-}
-
-@media only screen and (max-width: 900px) {
-
-  /* block grids on small screens */
-  .s-bgrid-sixths [class*="column"] {
-    width: 16.66667%;
-  }
-
-  .s-bgrid-quarters [class*="column"] {
-    width: 25%;
-  }
-
-  .s-bgrid-thirds [class*="column"] {
-    width: 33.33333%;
-  }
-
-  .s-bgrid-halves [class*="column"] {
-    width: 50%;
-  }
-
-  /* block grids left clearing */
-  .first {
-    clear: none;
-  }
-
-  .s-first {
-    clear: left;
-  }
-
-}
-
-/* mobile wide/smaller tablets
- --------------------------------------------------------------- */
-@media only screen and (max-width: 767px) {
-
-  .row {
-    width: 460px;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  .column,
-  .columns {
-    width: auto !important;
-    float: none;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0 30px;
-  }
-
-  .row .row {
-    width: auto;
-    max-width: none;
-    margin: 0 -30px;
-  }
-
-  [class*="column"]+[class*="column"]:last-child {
-    float: none;
-  }
-
-  [class*="bgrid"] [class*="column"]+[class*="column"]:last-child {
-    float: none;
-  }
-
-}
-
-/* mobile narrow
- --------------------------------------------------------------- */
-@media only screen and (max-width: 460px) {
-
-  .row {
-    width: auto;
-  }
-
-}
-
-/* larger screens
- --------------------------------------------------------------- */
-@media screen and (min-width: 1200px) {
-
-  .wide .row {
-    max-width: 1180px;
-  }
-
+user agent stylesheet a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
 }

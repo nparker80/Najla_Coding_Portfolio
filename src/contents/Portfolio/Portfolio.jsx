@@ -9,7 +9,7 @@ const Portfolio = ({ data }) => {
       return (
         <div key={projects.title} className="columns portfolio-item">
           <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
+            <a target="_blank" href={projects.url} title={projects.title}>
               <img alt={projects.title} src={projectImage} />
               <div className="overlay">
                 <div className="portfolio-item-meta">
@@ -30,9 +30,10 @@ const Portfolio = ({ data }) => {
 
   return (
 
-    <div className="condiv portfolio">
-      <section id="portfolio">
-        <div className="row">
+    <section id="portfolio" >
+
+      <div className="row" id="app__container">
+        <div className="twelve columns collapsed">
           <h1>Some of my favorite projects</h1>
 
           <div
@@ -42,7 +43,8 @@ const Portfolio = ({ data }) => {
             {projects}
           </div>
         </div>
-      </section ></div>
+      </div>
+    </section >
   );
 };
 
