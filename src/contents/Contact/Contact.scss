@@ -1,13 +1,24 @@
-.condiv-contact {
-  background-color: #5C6E58;
-  flex: 6
+// .condiv-contact {
+//   background-color: #5C6E58;
+//   flex: 6
+// }
+
+#app__container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
+.condiv-contact {
 
-.contact__content {
+  background-color: #5C6E58;
+
   p {
-    padding: 100px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     line-height: 40px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -15,14 +26,14 @@
     color: #fff;
   }
 
-  @media screen and (min-width: 320px) {
-    p {
-      line-height: 30px;
-      font-size: 25px;
-      padding: 5px;
-    }
+  // @media screen and (min-width: 320px) {
+  //   p {
+  //     line-height: 30px;
+  //     font-size: 25px;
+  //     padding: 5px;
+  //   }
 
-  }
+  // }
 
   h1 {
     font-size: 25px;

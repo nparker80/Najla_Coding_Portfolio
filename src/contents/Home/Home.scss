@@ -1,104 +1,122 @@
 .condiv-home {
   background-color: #5C6E58;
-  flex: 6;
-}
 
-.home__content {
-  img {
-    border-radius: 35% 85% 0% 90%;
-    margin: 15% 0% 0% 5%;
-
-
-
-
-    @media screen and (min-width: 320px) {
-      width: 41%;
-      height: 20%;
-    }
-
-    @media screen and (min-width: 481px) {
-      width: 40%;
-      height: 34%;
-    }
-
-
-    @media screen and (min-width: 769px) and (max-width: 1024px) {
-      width: 35%;
-      height: 45%;
-    }
-
-    @media screen and (min-width: 1025px) {
-      width: 25%;
-      height: 40%;
-    }
-
-
-
-
+  .greeting {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+
+  //   img {
+  //     border-radius: 100%;
+  //     padding-left: 40px;
+  //     max-width: 100%;
+  //     height: auto;
+  //     object-fit: contain;
+  //   }
+
+  //   @media screen and (min-width: 320px) {
+
+  //     padding: 0px;
+
+  //     width: 50%;
+  //     height: auto;
+  //   }
+  // }
+
+  // @media screen and (min-width: 481px) {
+  //   width: 40%;
+  //   height: 34%;
+  // }
+
+
+  // @media screen and (min-width: 769px) and (max-width: 1024px) {
+  //   width: 35%;
+  //   height: 45%;
+  // }
+
+  // @media screen and (min-width: 1025px) {
+  //   width: 25%;
+  //   height: 40%;
+  // }
 
   h1 {
     text-transform: uppercase;
-    line-height: 58px;
+    line-height: 30px;
     color: rgb(209, 197, 179);
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 45px;
-    display: inline-block;
+    font-size: 30px;
+  }
 
-    @media screen and (min-width: 320px) {
-
-      padding: 5px 30px 0 70px;
-      line-height: 20px;
-      font-size: 15px;
-    }
-
-    @media screen and (min-width: 481px) {
-
-      padding: 5px 30px 0 50px;
-      line-height: 20px;
-      font-size: 15px;
-    }
-
-    @media screen and (min-width: 769px) {
-
-      padding: 5px 30px 0 50px;
-      line-height: 20px;
+  @media screen and (min-width: 320px) {
+    h1 {
+      padding: 0px 0px 0 0px;
+      line-height: 22px;
       font-size: 25px;
-    }
-
-
-    span {
-      color: #8AA899
     }
   }
 
-  p {
-    display: block;
+  // @media screen and (min-width: 481px) {
+
+  //   padding: 5px 30px 0 50px;
+  //   line-height: 20px;
+  //   font-size: 15px;
+  // }
+
+  // @media screen and (min-width: 769px) {
+
+  //   padding: 5px 30px 0 50px;
+  //   line-height: 20px;
+  //   font-size: 25px;
+  // }
+
+
+  span {
+    padding: 40px;
+    color: #8AA899;
+
+  }
+
+
+  .p-text-home {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    line-height: 50px;
     text-transform: lowercase;
-    padding: 40px 0px 0px 250px;
     font-weight: bold;
     color: #F2D349;
     font-family: 'Dancing Script',
       cursive;
-    font-size: 120px;
-    margin-bottom: 200px;
+    font-size: 75px;
+
+
 
     @media screen and (min-width: 320px) {
-      padding: 350px 0px 0px 35px;
+      padding: 35px 0px 0px 5px;
       display: inline;
-      font-size: 30px;
-    }
-
-    @media screen and (min-width: 481px) {
-      padding: 300px 0px 0px 150px;
-      display: inline;
-      font-size: 30px;
-    }
-
-    @media screen and (min-width: 769px) {
-      padding: 0px 0px 0px 225px;
-      display: inline;
-      font-size: 35px;
+      font-size: 45px;
     }
   }
+
+
+
+
+  // @media screen and (min-width: 481px) {
+
+  //   padding: 300px 0px 0px 150px;
+  //   display: inline;
+  //   font-size: 30px;
+
+  // }
+
+  // @media screen and (min-width: 769px) {
+
+  //   padding: 0px 0px 0px 225px;
+  //   display: inline;
+  //   font-size: 35px;
+  // }
 }
