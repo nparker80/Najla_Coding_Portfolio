@@ -1,8 +1,9 @@
 .condiv-home {
   background-color: #5C6E58;
 
+
+
   .greeting {
-    width: 100%;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -74,12 +75,11 @@
   // }
 
 
-  span {
-    padding: 40px;
-    color: #8AA899;
+  //   span {
+  //     padding: 40px;
+  //     color: #8AA899;
 
-  }
-
+  //   }
 
   .p-text-home {
     display: flex;
@@ -92,31 +92,30 @@
     font-family: 'Dancing Script',
       cursive;
     font-size: 75px;
+  }
 
 
+  @media screen and (max-width: 1024px) {
+    .p-text-home {
+      padding: 0px 0px 0px 5px;
+      font-size: 55px;
+    }
+  }
 
-    @media screen and (min-width: 320px) {
+  @media screen and (max-width: 768px) {
+    .p-text-home {
       padding: 35px 0px 0px 5px;
-      display: inline;
+      font-size: 50px;
+
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .p-text-home {
+      padding: 35px 0px 0px 5px;
       font-size: 45px;
     }
   }
 
 
-
-
-  // @media screen and (min-width: 481px) {
-
-  //   padding: 300px 0px 0px 150px;
-  //   display: inline;
-  //   font-size: 30px;
-
-  // }
-
-  // @media screen and (min-width: 769px) {
-
-  //   padding: 0px 0px 0px 225px;
-  //   display: inline;
-  //   font-size: 35px;
-  // }
 }
