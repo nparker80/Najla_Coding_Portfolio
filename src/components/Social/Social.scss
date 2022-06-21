@@ -1,31 +1,32 @@
 .social {
-  position: absolute;
   margin-top: 20px;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
   bottom: 60px;
   padding-left: 10px;
 
-  @media screen and (min-width: 769px) {
-    padding-left: 20px;
-
-  }
 }
 
+
 .social i {
-  padding-right: 30px;
-  font-size: 25px;
+  padding-right: 20px;
+  font-size: 35px;
   color: #9a9b9c;
 
+}
 
-  @media screen and (min-width: 320px) {
-    font-size: 30px;
-  }
+//   @media screen and (max-width: 769px) {
+//     font-size: 40px;
+//   }
 
-  @media screen and (min-width: 769px) {
-    font-size: 40px;
-  }
+//   @media screen and (max-width: 320px) {
+//     font-size: 30px;
+//   }
 
-  .social i:hover {
-    color: rgb(209, 197, 179);
-  }
+.social i:hover {
+  color: rgb(209, 197, 179);
+
 }
