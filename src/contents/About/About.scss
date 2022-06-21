@@ -6,58 +6,41 @@
 .about__content {
 
   .subtopic {
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
     padding: 7px;
   }
 
-  // @media screen and (max-width: 480px) {
-  //   .subtopic {
-  //     padding-left: 10px;
-  //     margin: 0;
-  //   }
-  // }
-
   p {
 
     display: inline-block;
-    padding: 7px;
+    padding: 0px 205px 12px 200px;
     margin-bottom: 5px;
-    line-height: 1.2;
-    font-size: 18px;
+    line-height: 1.3;
+    font-size: 29px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    color: #fff
+    color: #fff;
   }
 
-  // @media screen and (max-width: 1024px) {
-  //   p {
-  //     padding: 0px 100px 0px 50px;
-
-  //   }
-  // }
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1008px) {
     p {
-      padding: 4px 60px 7px 60px;
-
+      font-size: 25px;
+      padding: 0px 45px 9px 40px;
     }
   }
 
-  @media screen and (min-width: 1025px) {
+  @media screen and (max-width: 640px) {
     p {
-      padding: 4px 80px 7px 80px;
-
+      font-size: 22px;
+      padding: 0px 27px 7px 30px;
     }
   }
 
+  @media screen and (max-width: 480px) {
+    p {
+      font-size: 20px;
+      padding: 0px 27px 7px 30px;
 
-
-
-
-  // @media screen and (max-width: 480px) {
-  //   p {
-  //     padding: 0px 10px 0px 17px;
-
-  //   }
-  // }
-
+    }
+  }
 }
