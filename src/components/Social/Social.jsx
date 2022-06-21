@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from 'react';
 import './Social.scss'
 class Social extends Component {
@@ -5,6 +6,7 @@ class Social extends Component {
     return (
       <div class="social">
         <a href="https://www.github.com/nparker80" target="_blank"><i class="fa fa-github"></i></a>
+
         <a href="https://www.linkedin.com/in/najlaparker" target="_blank"><i class="fa fa-linkedin"></i></a>
       </div>
     )
