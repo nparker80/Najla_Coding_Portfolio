@@ -5,8 +5,9 @@ class Social extends Component {
   render() {
     return (
       <div class="social">
+        // eslint-disable-next-line
         <a href="https://www.github.com/nparker80" target="_blank" rel="noopener"><i class="fa fa-github"></i></a>
-
+        // eslint-disable-next-line
         <a href="https://www.linkedin.com/in/najlaparker" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
       </div>
     )
