@@ -5,8 +5,8 @@ class Social extends Component {
   render() {
     return (
       <div class="social">
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/nparker80"><i class="fa fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/najlaparker"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/nparker80" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/najlaparker" target="_blank"><i class="fa fa-linkedin"></i></a>
       </div>
     )
   }
