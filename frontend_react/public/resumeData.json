@@ -2,11 +2,18 @@
   "portfolio": {
     "projects": [
       {
-        "title": "4 All Tech Blog",
+        "title": "Bellabeat",
+        "category": "Data Analytics",
+        "image": "Bellabeat.png",
+        "url": "https://www.kaggle.com/code/najlaparker/bellabeat-case-study",
+        "technology": "Kaggle, R Programming, Excel"
+      },
+      {
+        "title": "Persnickety Pups",
         "category": "Deployed or Walkthrough",
-        "image": "techblog.png",
-        "url": "https://for-all-tech-blog-nparker.herokuapp.com/",
-        "technology": "JavaScript, MySQL2, Handlebars, Bcrypt"
+        "image": "Persnickety-Pups.png",
+        "url": "hhttps://persnickety-pups.onrender.com/",
+        "technology": "MERN"
       },
       {
         "title": "Gym Bunny",
@@ -23,34 +30,6 @@
         "technology": "JavaScript, HTML, CSS"
       },
       {
-        "title": "Note Taker SBA",
-        "category": "Deployed or Walkthrough",
-        "image": "Note-Taker.png",
-        "url": "https://note-taker-sba.herokuapp.com/",
-        "technology": "JavaScript, HTML, CSS, Express, Node.js"
-      },
-      {
-        "title": "Codey Buddy",
-        "category": "Group Project",
-        "image": "codey-buddy.png",
-        "url": "https://nparker80.github.io/codey-buddy/",
-        "technology": "HTML, CSS, JavaScript, API"
-      },
-      {
-        "title": "Password Generator",
-        "category": "Deployed or Walkthrough",
-        "image": "password-generator.png",
-        "url": "https://nparker80.github.io/Random-Password-Generator/",
-        "technology": "JavaScript, HTML, CSS"
-      },
-      {
-        "title": "Weather Dashboard",
-        "category": "Deployed or Walkthrough",
-        "image": "weather-dashboard.png",
-        "url": "https://nparker80.github.io/weather-dashboard/",
-        "technology": "jQuery, HTML, CSS"
-      },
-      {
         "title": "a-Plus E-Commerce",
         "category": "Deployed or Walkthrough",
         "image": "E-commerce_sql.png",
@@ -58,11 +37,32 @@
         "technology": "JavaScript, Insomnia, MySQL2"
       },
       {
+        "title": "Note Taker SBA",
+        "category": "Deployed or Walkthrough",
+        "image": "Note-Taker.png",
+        "url": "https://note-taker-sba.herokuapp.com/",
+        "technology": "JavaScript, HTML, CSS, Express, Node.js"
+      },
+      {
         "title": "Employee Tracker",
         "category": "Deployed or Walkthrough",
         "image": "employeeTracker.png",
         "url": "https://drive.google.com/file/d/1PO7IP4yyhgUADwFYL9OrVbwM0ZUj7TeF/views",
-        "technology": "Node, Express, Inquirer, mySQL2"
+        "technology": "Node, Express, Inquirer, MySQL2"
+      },
+      {
+        "title": "4 All Tech Blog",
+        "category": "Deployed or Walkthrough",
+        "image": "techblog.png",
+        "url": "https://for-all-tech-blog-nparker.herokuapp.com/",
+        "technology": "JavaScript, MySQL2, Handlebars, Bcrypt"
+      },
+      {
+        "title": "Password Generator",
+        "category": "Deployed or Walkthrough",
+        "image": "password-generator.png",
+        "url": "https://nparker80.github.io/Random-Password-Generator/",
+        "technology": "JavaScript, HTML, CSS"
       }
     ]
   }
