@@ -11,7 +11,7 @@ class Home extends Component {
         <div className="greeting">
           <p className="p-text-home">Welcome to my portfolio!</p><h1>Hey and hi,<span>
             <br></br>
-            My name is Najla and I am a full stack web developer.</span></h1></div>
+            My name is Najla and I am open to work in Stockholm, Sweden.</span></h1></div>
         <div className="icons"><Social /></div>
       </div>
 
